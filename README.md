@@ -64,12 +64,23 @@ Explica cómo usar el sistema paso a paso:
 ## Estructura del proyecto
 ```bash
 PRUEBAML/
-├── src/
-├── app/
-├── .env.example
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
+├───app
+│   ├───chat
+│   │   └───__pycache__
+│   ├───rag
+│   │   └───__pycache__
+│   ├───scraper
+│   └───__pycache__
+├───chromadb
+├───data
+│   ├───chat_history
+│   ├───chroma
+│   │   └───66a7c6dd-9854-438e-a022-b5f24121753b
+│   ├───clean
+│   ├───processed
+│   └───raw
+├───logs
+└───storage
 ```
 
 ## Variables de entorno
